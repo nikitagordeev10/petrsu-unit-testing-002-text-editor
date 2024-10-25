@@ -1,0 +1,11 @@
+*.o
+tests/input/local_instruction.txt
+app/editor
+*.a
+.qmake.stash
+*.user
+Makefile
+build
+*.gcda
+*.gcno
+qmake-lab-2.pro.user
