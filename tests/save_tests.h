@@ -11,7 +11,7 @@ extern "C"{
 #include "_text.h"
 #include "common.h"
 }
-
+#include "constants.h"
 /* ------------------- save.c -------------------  */
 // Чтение, изменение и сохранение файла (позитивный)
 TEST (TestSave, default_save)
