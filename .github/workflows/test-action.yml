@@ -67,5 +67,8 @@ jobs:
           SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }} # Put the name of your token here
         run: |
           sonar-scanner \
-            --define sonar.cfamily.build-wrapper-output="${{ env.BUILD_WRAPPER_OUT_DIR }}" \
-            --define sonar.coverageReportPaths=coverage.xml
+            -Dsonar.host.url="https://sonarcloud.io" \
+            -Dsonar.organization="nikitagordeev10" \
+            -Dsonar.projectKey="nikitagordeev10_petrsu-unit-testing-002-text-editor" \
+            -Dsonar.cfamily.build-wrapper-output="${{ env.BUILD_WRAPPER_OUT_DIR }}" \
+            -Dsonar.coverageReportPaths=coverage.xml
