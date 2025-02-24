@@ -1,9 +1,9 @@
 [![CI/CD GitHub Actions](https://github.com/nikitagordeev10/petrsu_unit_testing_002_text_editor/actions/workflows/test-action.yml/badge.svg)](https://github.com/nikitagordeev10/petrsu_unit_testing_002_text_editor/actions/workflows/test-action.yml)
 [![Coverage Status](https://coveralls.io/repos/github/nikitagordeev10/petrsu_unit_testing_002_text_editor/badge.svg?branch=main)](https://coveralls.io/github/nikitagordeev10/petrsu_unit_testing_002_text_editor?branch=main)
-[![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=nikitagordeev10_petrsu_unit_testing_002_text_editor&metric=alert_status)](https://sonarcloud.io/summary/new_code?id=nikitagordeev10_petrsu_unit_testing_002_text_editor)
-[![Bugs](https://sonarcloud.io/api/project_badges/measure?project=nikitagordeev10_petrsu_unit_testing_002_text_editor&metric=bugs)](https://sonarcloud.io/summary/new_code?id=nikitagordeev10_petrsu_unit_testing_002_text_editor)
-[![Code Smells](https://sonarcloud.io/api/project_badges/measure?project=nikitagordeev10_petrsu_unit_testing_002_text_editor&metric=code_smells)](https://sonarcloud.io/summary/new_code?id=nikitagordeev10_petrsu_unit_testing_002_text_editor)
-[![Lines of Code](https://sonarcloud.io/api/project_badges/measure?project=nikitagordeev10_petrsu_unit_testing_002_text_editor&metric=ncloc)](https://sonarcloud.io/summary/new_code?id=nikitagordeev10_petrsu_unit_testing_002_text_editor)
+[![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=nikitagordeev10_petrsu-unit-testing-002-text-editor&metric=alert_status)](https://sonarcloud.io/summary/new_code?id=nikitagordeev10_petrsu-unit-testing-002-text-editor)
+[![Bugs](https://sonarcloud.io/api/project_badges/measure?project=nikitagordeev10_petrsu-unit-testing-002-text-editor&metric=bugs)](https://sonarcloud.io/summary/new_code?id=nikitagordeev10_petrsu-unit-testing-002-text-editor)
+[![Code Smells](https://sonarcloud.io/api/project_badges/measure?project=nikitagordeev10_petrsu-unit-testing-002-text-editor&metric=code_smells)](https://sonarcloud.io/summary/new_code?id=nikitagordeev10_petrsu-unit-testing-002-text-editor)
+[![Lines of Code](https://sonarcloud.io/api/project_badges/measure?project=nikitagordeev10_petrsu-unit-testing-002-text-editor&metric=ncloc)](https://sonarcloud.io/summary/new_code?id=nikitagordeev10_petrsu-unit-testing-002-text-editor)
 
 Лабораторная работа 2: Текстовый редактор
 Цель работы: реализация тестов для модуля приложения.
