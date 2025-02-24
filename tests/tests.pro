@@ -16,7 +16,13 @@ LIBS += -lgcov
 
 DEFINES += INPUTDIR=\\\"$$PWD/input/\\\"
 
-HEADERS += tests.h \
+HEADERS += load_tests.h \
+        move_tests.h \
+        mpweb_tests.h \
+        rn_tests.h \
+        save_tests.h \
+        show_tests.h \
+        showunderscores_tests.h \
         ../app/common.h \
         ../app/text.h \
         ../app/_text.h
