@@ -52,12 +52,10 @@ jobs:
         uses: SonarSource/sonarcloud-github-c-cpp@v2
       - name: Run build-wrapper
         run: |
-          mkdir build
-          cmake -S . -B build -DCMAKE_BUILD_TYPE=Debug -DCMAKE_CXX_FLAGS="--coverage"
-          build-wrapper-linux-x86-64 --out-dir ${{ env.BUILD_WRAPPER_OUT_DIR }} cmake --build build/ --config Debug
+          build-wrapper-linux-x86-64 --out-dir ${{ env.BUILD_WRAPPER_OUT_DIR }} make
       - name: Run tests to generate coverage statistics
         run: |
-          ./build/tests/tests
+          ./tests/tests
       - name: Collect coverage into one XML report
         run: |
           gcovr --sonarqube --gcov-ignore-parse-errors --exclude '.*googletest.*' > coverage.xml
