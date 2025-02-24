@@ -10,8 +10,9 @@ extern "C"{
 #include "text.h"
 #include "_text.h"
 #include "common.h"
-}
 #include "constants.h"
+}
+
 /* ------------------- mpweb.c -------------------  */
 
 // Выше первой строки текста, выход за границы текста вверх (негативный)

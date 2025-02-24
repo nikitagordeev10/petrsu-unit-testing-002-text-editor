@@ -10,9 +10,9 @@ extern "C"{
 #include "text.h"
 #include "_text.h"
 #include "common.h"
+#include "constants.h"
 }
 
-#include "constants.h"
 /* ------------------- move.c -------------------  */
 
 // Первая строка, выход за пределы текста влево (негативный)

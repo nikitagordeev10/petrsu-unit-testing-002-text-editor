@@ -10,8 +10,9 @@ extern "C"{
 #include "text.h"
 #include "_text.h"
 #include "common.h"
-}
 #include "constants.h"
+}
+
 /* ------------------- show.c -------------------  */
 
 // Файл в несколько строк, курсор в конце (позитивный)

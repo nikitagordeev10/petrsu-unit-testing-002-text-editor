@@ -1,3 +1,6 @@
+#ifndef CONSTANTS_H
+#define CONSTANTS_H
+
 /* =================== constants ===================  */
 
 char *lorem_input = INPUTDIR "/lorem_input.txt";
@@ -7,3 +10,5 @@ char *empty_file_input = INPUTDIR "/empty_file_input.txt";
 char *unusual_spaces_input = INPUTDIR "/unusual_spaces_input.txt";
 char *fakefile = INPUTDIR "/fakefile.txt";
 char *save_test_file = INPUTDIR "/save_test_file.txt";
+
+#endif // CONSTANTS_H

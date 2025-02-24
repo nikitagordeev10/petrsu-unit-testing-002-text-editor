@@ -23,6 +23,7 @@ HEADERS += load_tests.h \
         save_tests.h \
         show_tests.h \
         showunderscores_tests.h \
+        constants.h\
         ../app/common.h \
         ../app/text.h \
         ../app/_text.h
